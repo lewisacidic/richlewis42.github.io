@@ -8,6 +8,7 @@ var wrench = require('wrench');
 var options = {
   src: 'src',
   dist: 'dist',
+  pub: '.publish',
   tmp: '.tmp',
   e2e: 'e2e',
   errorHandler: function(title) {

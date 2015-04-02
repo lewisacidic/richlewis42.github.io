@@ -6,7 +6,7 @@ var browserSync = require('browser-sync');
 var $ = require('gulp-load-plugins')();
 
 module.exports = function(options) {
-  gulp.task('styles', function () {
+  gulp.task('styles', ['install'], function () {
     var sassOptions = {
       style: 'expanded',
       indentedSyntax: true

@@ -6,7 +6,7 @@ var browserSync = require('browser-sync');
 var $ = require('gulp-load-plugins')();
 
 module.exports = function(options) {
-  gulp.task('scripts', function () {
+  gulp.task('scripts', ['install'], function () {
     return gulp.src(options.src + '/{app,components}/**/*.coffee')
       .pipe($.sourcemaps.init())
       .pipe($.coffeelint())
