@@ -1,4 +1,1 @@
-richlewis42.github.io
-=====================
-
-personal
+# Personal webpage of Rich Lewis
